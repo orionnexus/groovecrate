@@ -1,0 +1,21 @@
+:root {
+    /*COLOR PALETTE*/
+    --white: #F6F6F6;
+    --light-cyan: #E0FBFC;
+    --blue: #3D5A80;
+    --dark-blue: #293241;
+    --dark-gray: #0A0E14;
+    --orange: #EE6C4D;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--white);
+  
+    margin: 0;
+    width: 100%;
+}
