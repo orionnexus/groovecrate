@@ -75,6 +75,21 @@
         width: 220px;
         height: 220px;
     }
+
+    .feature-blog{
+        width: 350px;
+        height: auto;
+    }
+
+    .feature-blog:hover .feature-blog-title{
+        width: 350px;
+        height: 197px;
+    }
+
+    .feature-blog img{
+        width: 350px;
+        height: auto;
+    }
 }
 
 
@@ -196,6 +211,21 @@
         width: 200px;
         height: 200px;
     }
+
+    .feature-blog{
+        width: 311px;
+        height: auto;
+    }
+
+    .feature-blog:hover .feature-blog-title{
+        width: 311px;
+        height: 175px;
+    }
+
+    .feature-blog img{
+        width: 311px;
+        height: auto;
+    }
     
   }
 
@@ -222,6 +252,29 @@
     .feature-section .button{
         margin: 10px 0 70px 0;
     }
+
+    .feature-blog{
+        width: 350px;
+        height: auto;
+
+        margin: 0 0 40px 0;
+    }
+
+    .feature-blog:hover .feature-blog-title{
+        width: 350px;
+        height: 197px;
+    }
+
+    .feature-blog img{
+        width: 350px;
+        height: auto;
+    }
+
+    #feature-blog-btn{
+        margin: 40px 0 70px 0;
+    }
+    
+    
   }
 
 
@@ -298,6 +351,31 @@
         font-size: 12px;
         margin: 5px 0 15px 0;
     }
+
+    .feature-blog{
+        width: 311px;
+        height: auto;
+
+        margin: 0 0 30px 0;
+    }
+
+    .feature-blog:hover .feature-blog-title{
+        width: 311px;
+        height: 175px;
+    }
+
+    .feature-blog img{
+        width: 311px;
+        height: auto;
+    }
+
+    .feature-blog-title{
+        font-size: 14px;
+    }
+
+    #feature-blog-btn{
+        margin: 30px 0 70px 0;
+    }
   }
 
 
@@ -334,5 +412,28 @@
     .item img{
         width: 200px;
         height: 200px;
+    }
+
+    .feature-blog{
+        width: 200px;
+        height: 130px;
+
+        margin: 0 0 30px 0;
+    }
+
+    .feature-blog:hover .feature-blog-title{
+        width: 200px;
+        height: 130px;
+    }
+
+    .feature-blog img{
+        width: 200px;
+        height: 130px;
+
+        object-fit: cover;
+    }
+
+    #feature-blog-btn{
+        margin: 20px 0 70px 0;
     }
   }

@@ -122,11 +122,15 @@ nav .cart:hover svg{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+
+    transition: all .4s ease;
 }
 
 .banner-img{
     width: 100%;
     object-fit: cover;
+
+    transition: all .4s ease;
 }
 
 .banner-section h1{
@@ -138,6 +142,8 @@ nav .cart:hover svg{
 
     margin: 275px 0 20px 0;
     position: absolute;
+
+    transition: all .4s ease;
 }
 
 .banner-section h1 span{
@@ -152,6 +158,8 @@ nav .cart:hover svg{
     position: absolute;
     color: var(--white);
     margin: 400px 0 0 0;
+
+    transition: all .4s ease;
 }
 
 .scroll-to-main-btn{
@@ -227,6 +235,8 @@ nav .cart:hover svg{
 
     width: 850px;
     margin: 50px 0 0 0;
+
+    transition: all .4s ease;
 }
 
 .item{
@@ -234,6 +244,8 @@ nav .cart:hover svg{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+
+    transition: all .4s ease;
 }
 
 .item:hover{
@@ -298,6 +310,8 @@ nav .cart:hover svg{
     color: var(--white);
     position: absolute;
     opacity: 0;
+
+    text-align: center;
 }
 
 .button{
@@ -310,6 +324,8 @@ nav .cart:hover svg{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition: all .4s ease;
 }
 
 .button:hover{
@@ -321,6 +337,10 @@ nav .cart:hover svg{
     font-size: 18px;
     font-weight: 800;
     color: var(--dark-blue);
+}
+
+#feature-blog-btn{
+    margin: 70px 0 70px 0;
 }
 
 /*******************END OF FEATURE SECTION********************/
