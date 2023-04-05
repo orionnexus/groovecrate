@@ -71,7 +71,7 @@ nav ul li a{
     text-transform: uppercase;
   }
 
-nav a.active,a:hover{
+nav a.active,nav a:hover{
     color: var(--light-cyan);
     text-decoration: underline;
   }
@@ -236,6 +236,10 @@ nav .cart:hover svg{
     justify-content: flex-start;
 }
 
+.item:hover{
+    background-color: var(--blue);
+}
+
 .item img{
     width: 250px;
     height: 250px;
@@ -255,7 +259,7 @@ nav .cart:hover svg{
     font-size: 14px;
     font-weight: 400;
     color: var(--white);
-    margin: 10px 0 0 0;
+    margin: 10px 0 20px 0;
 }
 
 .button{
@@ -268,6 +272,10 @@ nav .cart:hover svg{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.button:hover{
+    background-color: var(--orange);
 }
 
 .button p{
