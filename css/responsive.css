@@ -8,9 +8,65 @@
     --orange: #EE6C4D;
 }
 
+@media (max-width: 1800px){
+    .scroll-to-main-btn{
+        top: 820px;
+      }
+}
+
+@media (max-width: 1600px){
+    .scroll-to-main-btn{
+        top: 780px;
+      }
+
+    .banner-section h1{
+        margin: 225px 0 20px 0;
+      }
+
+    .banner-section h2{
+        margin: 350px 0 0 0;
+      }
+}
+
+@media (max-width: 1500px){
+    .scroll-to-main-btn{
+        top: 720px;
+      }
+
+    .banner-section h1{
+        margin: 200px 0 20px 0;
+      }
+
+    .banner-section h2{
+        margin: 325px 0 0 0;
+      }
+}
+
+@media (max-width: 1440px){
+    .banner-img{
+        width: 100%;
+        height: 753px;
+        object-fit: cover;
+    
+        z-index: -1;
+    }
+
+    label.logo{
+        margin: 0 auto 0 100px;
+      }
+
+    nav .cart svg{
+        margin: 0 100px 0 0;
+      }
+}
+
+@media (max-width: 1280px){
+    
+}
 
 
-@media (max-width: 858px){
+
+@media (max-width: 834px){
 
     /*******************NAVBAR********************/
 
@@ -43,13 +99,15 @@
       }
 
     #menu{
-        position: fixed;
+        position: absolute;
         width: 100%;
         height: 100vh;
         top: 64px;
         left: -100%;
         margin: 0;
         padding: 0;
+
+        z-index: 1000;
 
         background: var(--dark-blue);
         text-align: center;
@@ -94,10 +152,101 @@
         color: var(--light-cyan);
     }
 
-    a:hover,a.active{
+    nav a:hover,nav a.active{
         color: var(--orange);
     }
 
-    /*******************END OF NAVBAR********************/
+    /*******************BANNER SECTION********************/
+
+    .banner-section{
+        top: 64px;
+        position: absolute;
+        z-index: -10;
+    }
+
+    .banner-section h1{
+        font-size: 64px;
+        margin: 200px 0 20px 0;
+      }
+
+    .banner-section h2{
+        font-size: 16px;
+        margin: 300px 0 0 0;
+      }
+
+    .scroll-to-main-btn{
+        z-index: -1;
+        top: 650px;
+      }
     
+  }
+  
+
+  @media (max-width: 600px){
+
+    .banner-section h1{
+        font-size: 56px;
+        margin: 200px 0 20px 0;
+      }
+
+    .banner-section h2{
+        font-size: 16px;
+        margin: 275px 0 0 0;
+      }
+  }
+
+
+  @media (max-width: 480px){
+
+    .banner-img{
+        width: 100%;
+        height: 680px;
+        object-fit: cover;
+    
+        z-index: -1;
+    }
+
+    .banner-section h1{
+        font-size: 36px;
+        margin: 200px 0 20px 0;
+      }
+
+    .banner-section h2{
+        font-size: 16px;
+        margin: 260px 0 0 0;
+        width: 250px;
+        line-height: 20px;
+      }
+
+    .scroll-to-main-btn{
+        top: 580px;
+      }
+  }
+
+
+  @media (max-width: 360px){
+
+    .banner-img{
+        width: 100%;
+        height: 540px;
+        object-fit: cover;
+    
+        z-index: -1;
+    }
+
+    .banner-section h1{
+        font-size: 36px;
+        margin: 150px 0 20px 0;
+      }
+
+    .banner-section h2{
+        font-size: 16px;
+        margin: 210px 0 0 0;
+        width: 250px;
+        line-height: 20px;
+      }
+
+    .scroll-to-main-btn{
+        top: 440px;
+      }
   }

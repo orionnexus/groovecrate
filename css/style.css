@@ -34,7 +34,7 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: sticky;
+    /*position: sticky;*/
     top: 0;
     z-index: 9999;
 }
@@ -71,12 +71,12 @@ nav ul li a{
     text-transform: uppercase;
   }
 
-a.active,a:hover{
+nav a.active,a:hover{
     color: var(--light-cyan);
     text-decoration: underline;
   }
 
-a:hover{
+nav a:hover{
     transition: .5s;
   }
 
@@ -115,7 +115,8 @@ nav .cart:hover svg{
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .banner-img{
@@ -130,8 +131,17 @@ nav .cart:hover svg{
     font-size: 96px;
     font-weight: 800;
     text-align: center;
+    color: var(--orange);
 
-    z-index: 10;
+    margin: 275px 0 20px 0;
+
+
+    position: absolute;
+    z-index: -1;
+}
+
+.banner-section h1 span{
+    color: var(--light-cyan);
 }
 
 .banner-section h2{
@@ -139,7 +149,10 @@ nav .cart:hover svg{
     font-size: 24px;
     font-weight: 800;
     text-align: center;
-    z-index: 10;
+    position: absolute;
+    z-index: -1;
+    color: var(--white);
+    margin: 400px 0 0 0;
 }
 
 .scroll-to-main-btn{
@@ -147,15 +160,11 @@ nav .cart:hover svg{
     position: absolute;
     margin: auto;
     top: 880px;
-    z-index: 100;
-  
-    filter: drop-shadow(0 0 5px white);
-  
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
   }
 
 .scroll-to-main-btn span{
@@ -163,7 +172,7 @@ nav .cart:hover svg{
     font-size: 14px;
     font-weight: 800;
     text-align: center;
-    color: var(--dark-gray);
+    color: var(--light-cyan);
     padding-bottom: 5px;
   }
 
@@ -171,15 +180,13 @@ nav .cart:hover svg{
     width: 30px;
     height: 30px;
     rotate: 90deg;
-  
-    filter: hue-rotate(200deg);
+    filter: invert(1);
   }
 
 .arrow-down-left{
     width: 30px;
     height: 30px;
     rotate: 90deg;
-  
     filter: hue-rotate(200deg);
   
     display: none;
