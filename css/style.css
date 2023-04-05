@@ -34,10 +34,13 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 label.logo{
-    margin: 0 auto 0 100px;
+    margin: 0 auto 0 200px;
   }
 
 label.logo img{
@@ -49,7 +52,8 @@ label.logo img{
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 20px;
+    margin: 0 20px;
+    padding: 0;
   }
 
 nav ul li{
@@ -78,7 +82,7 @@ a:hover{
 
 nav .cart svg{
     height: 30px;
-    margin: 0 100px 0 100px;
+    margin: 0 200px 0 0;
     fill: var(--dark-blue);
   }
 
@@ -101,92 +105,86 @@ nav .cart:hover svg{
 /*******************END OF NAVBAR********************/
 
 
-@media (max-width: 858px){
+/*******************BANNER SECTION********************/
 
-    label.logo{
-        margin: 0 auto 0 50px;
-      }
+.banner-section{
+    width: 100%;
+    height: 1016px;
+    margin: 0;
+    top: 0;
 
-    .checkbtn{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 30px;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-    .checkbtn svg{
-        height: 30px;
-        fill: var(--dark-blue);
-    }
+.banner-img{
+    width: 100%;
+    object-fit: cover;
 
-    .checkbtn svg:hover{
-        height: 30px;
-        fill: var(--light-cyan);
-    }
+    z-index: -1;
+}
 
-    nav .cart svg{
-        height: 25px;
-        margin: 0 20px 0 100px;
-        fill: var(--dark-blue);
-      }
+.banner-section h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    font-weight: 800;
+    text-align: center;
 
-    #menu{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 64px;
-        left: -100%;
-        margin: 0;
-        padding: 0;
+    z-index: 10;
+}
 
-        background: var(--dark-blue);
-        text-align: center;
-        transition: all .5s;
+.banner-section h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    z-index: 10;
+}
 
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    #menu-show{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 64px;
-        left: 0%;
-        margin: 0;
-        padding: 0;
-
-        background: var(--dark-blue);
-        text-align: center;
-        transition: all .5s;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    nav ul li{
-        margin: 20px 0;
-        line-height: 30px;
-    }
-
-    nav ul .nav-one{
-        margin: 40px 0 20px 0;
-    }
-
-    nav ul li a{
-        font-size: 16px;
-        color: var(--light-cyan);
-    }
-
-    a:hover,a.active{
-        color: var(--orange);
-    }
-
+.scroll-to-main-btn{
+    width: 200px;
+    position: absolute;
+    margin: auto;
+    top: 880px;
+    z-index: 100;
+  
+    filter: drop-shadow(0 0 5px white);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
-    
-    
+  }
+
+.scroll-to-main-btn span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--dark-gray);
+    padding-bottom: 5px;
+  }
+
+.arrow-down{
+    width: 30px;
+    height: 30px;
+    rotate: 90deg;
+  
+    filter: hue-rotate(200deg);
+  }
+
+.arrow-down-left{
+    width: 30px;
+    height: 30px;
+    rotate: 90deg;
+  
+    filter: hue-rotate(200deg);
+  
+    display: none;
+  }
+  
+#st-main{
+    width: 100%;
   }
