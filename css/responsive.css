@@ -10,13 +10,18 @@
 
 @media (max-width: 1800px){
     .scroll-to-main-btn{
-        top: 820px;
+        top: 750px;
       }
+
+    .banner-section{
+        height: auto;
+    }
+    
 }
 
 @media (max-width: 1600px){
     .scroll-to-main-btn{
-        top: 780px;
+        top: 700px;
       }
 
     .banner-section h1{
@@ -30,7 +35,7 @@
 
 @media (max-width: 1500px){
     .scroll-to-main-btn{
-        top: 720px;
+        top: 650px;
       }
 
     .banner-section h1{
@@ -47,7 +52,7 @@
         width: 100%;
         height: 753px;
         object-fit: cover;
-    
+
         z-index: -1;
     }
 
@@ -160,8 +165,6 @@
 
     .banner-section{
         top: 64px;
-        position: absolute;
-        z-index: -10;
     }
 
     .banner-section h1{
@@ -173,14 +176,9 @@
         font-size: 16px;
         margin: 300px 0 0 0;
       }
-
-    .scroll-to-main-btn{
-        z-index: -1;
-        top: 650px;
-      }
     
   }
-  
+
 
   @media (max-width: 600px){
 
@@ -219,7 +217,12 @@
       }
 
     .scroll-to-main-btn{
-        top: 580px;
+        top: 550px;
+      }
+
+    .scroll-to-main-btn span{
+        font-size: 12px;
+        padding-bottom: 5px;
       }
   }
 
