@@ -262,6 +262,44 @@ nav .cart:hover svg{
     margin: 10px 0 20px 0;
 }
 
+.feature-blog{
+    width: 400px;
+    height: 225px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all .4s ease-in-out;
+}
+
+.feature-blog:hover .feature-blog-title{
+    width: 400px;
+    height: 225px;
+    background-color: #3d5a80ca;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+
+    transition: all .4s ease;
+}
+
+.feature-blog img{
+    width: 400px;
+    height: auto;
+}
+
+.feature-blog-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--white);
+    position: absolute;
+    opacity: 0;
+}
+
 .button{
     width: 200px;
     height: 40px;
