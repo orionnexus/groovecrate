@@ -1,0 +1,534 @@
+:root {
+    /*COLOR PALETTE*/
+    --white: #F6F6F6;
+    --light-cyan: #E0FBFC;
+    --blue: #3D5A80;
+    --dark-blue: #293241;
+    --dark-gray: #0A0E14;
+    --orange: #EE6C4D;
+}
+
+@media (max-width: 1800px) {
+    .scroll-to-main-btn {
+        top: 750px;
+    }
+
+    .banner-section {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 1600px) {
+    .scroll-to-main-btn {
+        top: 700px;
+    }
+
+    .banner-section h1 {
+        margin: 225px 0 20px 0;
+    }
+
+    .banner-section h2 {
+        margin: 350px 0 0 0;
+    }
+}
+
+@media (max-width: 1500px) {
+    .scroll-to-main-btn {
+        top: 650px;
+    }
+
+    .banner-section h1 {
+        margin: 200px 0 20px 0;
+    }
+
+    .banner-section h2 {
+        margin: 325px 0 0 0;
+    }
+}
+
+@media (max-width: 1440px) {
+    .banner-img {
+        width: 100%;
+        height: 753px;
+        object-fit: cover;
+
+        z-index: -1;
+    }
+
+    label.logo {
+        margin: 0 auto 0 100px;
+    }
+
+    nav .cart svg {
+        margin: 0 100px 0 0;
+    }
+
+    .footer-column {
+        width: 300px;
+        height: 120px;
+        margin: 0;
+        margin: 25px 0 0 100px;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 900px) {
+    .feature-row {
+        width: 720px;
+        margin: 50px 0 0 0;
+    }
+
+    .item img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .feature-blog {
+        width: 350px;
+        height: auto;
+    }
+
+    .feature-blog:hover .feature-blog-title {
+        width: 350px;
+        height: 197px;
+    }
+
+    .feature-blog img {
+        width: 350px;
+        height: auto;
+    }
+}
+
+
+
+@media (max-width: 834px) {
+
+    /*******************NAVBAR********************/
+
+    label.logo {
+        margin: 0 auto 0 50px;
+    }
+
+    .checkbtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+    }
+
+    .checkbtn svg {
+        height: 30px;
+        fill: var(--dark-blue);
+    }
+
+    .checkbtn svg:hover {
+        height: 30px;
+        fill: var(--light-cyan);
+        transition: .5s;
+    }
+
+    nav .cart svg {
+        height: 25px;
+        margin: 0 20px 0 100px;
+        fill: var(--dark-blue);
+    }
+
+    #menu {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 64px;
+        left: -100%;
+        margin: 0;
+        padding: 0;
+
+        z-index: 1000;
+
+        background: var(--dark-blue);
+        text-align: center;
+        transition: all .5s;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #menu-show {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 64px;
+        left: 0%;
+        margin: 0;
+        padding: 0;
+
+        background: var(--dark-blue);
+        text-align: center;
+        transition: all .5s;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 20px 0;
+        line-height: 30px;
+    }
+
+    nav ul .nav-one {
+        margin: 40px 0 20px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+        color: var(--light-cyan);
+    }
+
+    nav a:hover,
+    nav a.active {
+        color: var(--orange);
+    }
+
+    /*******************BANNER SECTION********************/
+
+    .banner-section {
+        top: 64px;
+    }
+
+    .banner-section h1 {
+        font-size: 64px;
+        margin: 200px 0 20px 0;
+    }
+
+    .banner-section h2 {
+        font-size: 16px;
+        margin: 300px 0 0 0;
+    }
+
+
+    /*******************FEATURE SECTION********************/
+    .feature-row {
+        width: 640px;
+        margin: 50px 0 0 0;
+    }
+
+    .item img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .feature-blog {
+        width: 311px;
+        height: auto;
+    }
+
+    .feature-blog:hover .feature-blog-title {
+        width: 311px;
+        height: 175px;
+    }
+
+    .feature-blog img {
+        width: 311px;
+        height: auto;
+    }
+
+    .item-name {
+        width: 190px;
+        height: 22px;
+    }
+
+    .item:hover #not-marquee {
+        animation: marquee 3s linear infinite;
+        animation-delay: .5s;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .feature-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        width: auto;
+        margin: 50px 0 0 0;
+    }
+
+    .item img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .item {
+        margin: 0 0 40px 0;
+    }
+
+    .feature-section .button {
+        margin: 10px 0 70px 0;
+    }
+
+    .feature-blog {
+        width: 350px;
+        height: auto;
+
+        margin: 0 0 40px 0;
+    }
+
+    .feature-blog:hover .feature-blog-title {
+        width: 350px;
+        height: 197px;
+    }
+
+    .feature-blog img {
+        width: 350px;
+        height: auto;
+    }
+
+    #feature-blog-btn {
+        margin: 40px 0 70px 0;
+    }
+
+    .item-name {
+        width: 220px;
+        height: 22px;
+    }
+
+    .item:hover #not-marquee {
+        animation: none;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .banner-section h1 {
+        font-size: 56px;
+        margin: 200px 0 20px 0;
+    }
+
+    .banner-section h2 {
+        font-size: 16px;
+        margin: 275px 0 0 0;
+    }
+
+    #section-title {
+        font-size: 24px;
+        margin: 70px 0 0 0;
+    }
+
+    .footer {
+        height: 260px;
+        transition: all .4s ease;
+
+        justify-content: center;
+    }
+
+    .footer-column {
+        width: 300px;
+        height: auto;
+        margin: 20px 0 0 0;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+
+        transition: all .4s ease;
+    }
+
+    .footer h2 {
+        margin: 0 0 20px 0;
+    }
+
+    .footer .footer-contact {
+        margin: 0 0 20px 0;
+    }
+
+    .footer-nav {
+        font-size: 12px;
+        margin: 0 0 12px 0;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .banner-img {
+        width: 100%;
+        height: 680px;
+        object-fit: cover;
+
+        z-index: -1;
+    }
+
+    .banner-section h1 {
+        font-size: 36px;
+        margin: 200px 0 20px 0;
+    }
+
+    .banner-section h2 {
+        font-size: 16px;
+        margin: 260px 0 0 0;
+        width: 250px;
+        line-height: 20px;
+    }
+
+    .scroll-to-main-btn {
+        top: 550px;
+    }
+
+    .scroll-to-main-btn span {
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+
+    #section-title {
+        font-size: 18px;
+        margin: 70px 0 0 0;
+    }
+
+    .item {
+        margin: 0 0 30px 0;
+    }
+
+    .item img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .item-name {
+        font-size: 14px;
+        margin: 15px 0 0 0;
+    }
+
+    .item-price {
+        font-size: 12px;
+        margin: 5px 0 15px 0;
+    }
+
+    .item-name {
+        width: 190px;
+        height: 22px;
+    }
+
+    .item:hover #not-marquee {
+        animation: none;
+    }
+
+    .feature-blog {
+        width: 311px;
+        height: auto;
+
+        margin: 0 0 30px 0;
+    }
+
+    .feature-blog:hover .feature-blog-title {
+        width: 311px;
+        height: 175px;
+    }
+
+    .feature-blog img {
+        width: 311px;
+        height: auto;
+    }
+
+    .feature-blog-title {
+        font-size: 14px;
+    }
+
+    #feature-blog-btn {
+        margin: 30px 0 70px 0;
+    }
+
+    .button {
+        width: 150px;
+        height: 30px;
+    }
+
+    .button p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media (max-width: 360px) {
+
+    .banner-img {
+        width: 100%;
+        height: 540px;
+        object-fit: cover;
+
+        z-index: -1;
+    }
+
+    .banner-section h1 {
+        font-size: 36px;
+        margin: 150px 0 20px 0;
+    }
+
+    .banner-section h2 {
+        font-size: 16px;
+        margin: 210px 0 0 0;
+        width: 250px;
+        line-height: 20px;
+    }
+
+    .scroll-to-main-btn {
+        top: 440px;
+    }
+
+    .item {
+        margin: 0 0 20px 0;
+    }
+
+    .item img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .item-name {
+        width: 170px;
+        height: 22px;
+    }
+
+    .item:hover #not-marquee {
+        animation: none;
+    }
+
+    .feature-blog {
+        width: 200px;
+        height: 130px;
+
+        margin: 0 0 30px 0;
+    }
+
+    .feature-blog:hover .feature-blog-title {
+        width: 200px;
+        height: 130px;
+    }
+
+    .feature-blog img {
+        width: 200px;
+        height: 130px;
+
+        object-fit: cover;
+    }
+
+    #feature-blog-btn {
+        margin: 20px 0 70px 0;
+    }
+}
