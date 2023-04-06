@@ -259,11 +259,52 @@ nav .cart:hover svg{
 }
 
 .item-name{
+    width: 220px;
+    height: 22px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 800;
     color: var(--white);
     margin: 20px 0 0 0;
+    overflow-x: hidden;
+    white-space: nowrap;
+    
+}
+
+.item:hover .item-name{
+    overflow-x: visible;
+
+    animation: marquee 3s linear infinite;
+    animation-delay: .5s;
+
+    transition: all 0.1s ease;
+}
+
+
+#not-marquee{
+    animation: none;
+}
+
+.item:hover{
+    -webkit-mask: linear-gradient( to left, rgba(255, 255, 255, 0) 0%, 
+    rgba(255, 255, 255, 1) 0%, 
+    rgba(255, 255, 255, 1) 100%, 
+    rgba(255, 255, 255, 0) 100% );
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-75%);
+    }
+}
+
+
+.item:hover .item-name::-webkit-scrollbar {
+    display: none;
 }
 
 .item-price{
