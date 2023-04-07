@@ -80,6 +80,10 @@
     .about-section p{
         width: 720px;
     }
+
+    .contact-row{
+        width: 800px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -274,6 +278,48 @@
         margin: 25px 0 50px 0;
     }
 
+    /*******************CONTACT PAGE********************/
+
+    .contact-section h1 {
+        font-size: 24px;
+        line-height: 24px;
+    
+        margin: 150px 0 0 0;
+    }
+
+    .contact-section h2 {
+        font-size: 18px;
+        margin: 40px 0 0 0;
+    }
+
+    .contact-row{
+        width: 640px;
+    }
+
+    .contact-info-block{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        transition: all .1s ease;
+    }
+
+    .contact-section img{
+        width: 50px;
+    }
+
+    .contact-section .contact-info-title{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+    }
+
+    .contact-section .contact-info{
+        font-size: 12px;
+        margin: 20px 0 0 0;
+    }
 }
 
 @media (max-width: 720px) {
@@ -335,6 +381,49 @@
 
     .about-section p{
         width: 490px;
+    }
+
+    /*******************CONTACT PAGE********************/
+
+    .contact-section h1 {  
+        margin: 100px 0 0 0;
+    }
+
+    .contact-section h2 {
+        font-size: 18px;
+        margin: 30px 0 0 0;
+    }
+
+    .contact-row{
+        width: 300px;
+        flex-direction: column;
+        margin: 10px 0 50px 0;
+    }
+
+    .contact-info-block{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0 0 0;
+    
+        transition: all .1s ease;
+    }
+
+    .contact-section img{
+        width: 50px;
+    }
+
+    .contact-section .contact-info-title{
+        font-size: 16px;
+        margin: 20px 0 0 0;
+    }
+
+    .contact-section .contact-info{
+        font-size: 12px;
+        margin: 20px 0 0 0;
     }
 
 }
@@ -422,6 +511,43 @@
         font-size: 16px;
         width: 400px;
     }
+
+    /*******************CONTACT PAGE********************/
+
+    .contact-section h1 {  
+        margin: 75px 0 0 0;
+    }
+
+    .contact-section h2 {
+        font-size: 14px;
+        margin: 30px 0 0 0;
+    }
+
+    .contact-row{
+        width: 300px;
+        flex-direction: column;
+        margin: 10px 0 50px 0;
+    }
+
+    .contact-info-block{
+        height: 150px;
+        margin: 10px 0 0 0;
+    }
+
+    .contact-section img{
+        width: 40px;
+    }
+
+    .contact-section .contact-info-title{
+        font-size: 16px;
+        margin: 15px 0 0 0;
+    }
+
+    .contact-section .contact-info{
+        font-size: 12px;
+        margin: 15px 0 0 0;
+    }
+
 }
 
 
@@ -543,6 +669,47 @@
 
         margin: 20px 0 50px 0;
     }
+
+    /*******************CONTACT PAGE********************/
+
+    .contact-section h1 {  
+        font-size: 18px;
+        line-height: 18px;
+        margin: 50px 0 0 0;
+    }
+
+    .contact-section h2 {
+        margin: 20px 0 0 0;
+    }
+
+    .contact-section h2 br{
+        display: block;
+    }
+
+    .contact-row{
+        width: 300px;
+        flex-direction: column;
+        margin: 10px 0 50px 0;
+    }
+
+    .contact-info-block{
+        height: 150px;
+        margin: 10px 0 0 0;
+    }
+
+    .contact-section img{
+        width: 40px;
+    }
+
+    .contact-section .contact-info-title{
+        font-size: 14px;
+        margin: 15px 0 0 0;
+    }
+
+    .contact-section .contact-info{
+        font-size: 12px;
+        margin: 15px 0 0 0;
+    }
 }
 
 
@@ -633,6 +800,44 @@
         font-size: 12px;
         width: 250px;
         margin: 15px 0 50px 0;
+    }
+
+    /*******************CONTACT PAGE********************/
+
+    .contact-section h1 {  
+        font-size: 18px;
+        line-height: 18px;
+        margin: 40px 0 0 0;
+    }
+
+    .contact-section h2 {
+        font-size: 12px;
+        margin: 20px 0 0 0;
+    }
+
+    .contact-row{
+        width: 300px;
+        flex-direction: column;
+        margin: 10px 0 50px 0;
+    }
+
+    .contact-info-block{
+        height: 120px;
+        margin: 10px 0 0 0;
+    }
+
+    .contact-section img{
+        width: 30px;
+    }
+
+    .contact-section .contact-info-title{
+        font-size: 14px;
+        margin: 15px 0 0 0;
+    }
+
+    .contact-section .contact-info{
+        font-size: 12px;
+        margin: 10px 0 0 0;
     }
 
 }
