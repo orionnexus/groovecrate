@@ -461,3 +461,56 @@ nav .cart:hover svg {
 }
 
 /*******************END OF FOOTER SECTION********************/
+
+/*******************ABOUT PAGE********************/
+.about-section{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--dark-blue);
+}
+
+.about-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--orange);
+    line-height: 96px;
+
+    margin: 200px 0 0 0;
+
+    transition: all .4s ease;
+}
+
+.about-section h1 span {
+    color: var(--light-cyan);
+}
+
+.about-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--white);
+    margin: 40px 0 0 0;
+
+    transition: all .4s ease;
+}
+
+.about-section p{
+    font-family: 'Montserrat', sans-serif;
+    width: 900px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--white);
+    margin: 30px 500px 50px 500px;
+
+    transition: all .4s ease;
+}
+
+/*******************END OF ABOUT PAGE********************/

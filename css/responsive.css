@@ -76,6 +76,10 @@
         justify-content: flex-start;
         align-items: flex-start;
     }
+
+    .about-section p{
+        width: 720px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -251,6 +255,25 @@
         animation-delay: .5s;
     }
 
+    /***************ABOUT PAGE*****************/
+
+    .about-section h1 {
+        font-size: 64px;
+        line-height: 64px;
+        margin: 150px 0 0 0;
+    }
+
+    .about-section h2 {
+        font-size: 16px;
+        margin: 40px 0 0 0;
+    }
+
+    .about-section p{
+        font-size: 16px;
+        width: 600px;
+        margin: 25px 0 50px 0;
+    }
+
 }
 
 @media (max-width: 720px) {
@@ -307,6 +330,13 @@
         animation: none;
     }
 
+
+    /***************ABOUT PAGE*****************/
+
+    .about-section p{
+        width: 490px;
+    }
+
 }
 
 
@@ -359,6 +389,24 @@
     .footer-nav {
         font-size: 12px;
         margin: 0 0 12px 0;
+    }
+
+    /***************ABOUT PAGE*****************/
+
+    .about-section h1 {
+        font-size: 56px;
+        line-height: 56px;
+        margin: 100px 0 0 0;
+    }
+
+    .about-section h2 {
+        font-size: 16px;
+        margin: 40px 0 0 0;
+    }
+
+    .about-section p{
+        font-size: 16px;
+        width: 400px;
     }
 }
 
@@ -460,6 +508,27 @@
     .button p {
         font-size: 14px;
     }
+
+    /***************ABOUT PAGE*****************/
+
+    .about-section h1 {
+        font-size: 36px;
+        line-height: 56px;
+
+        margin: 80px 0 0 0;
+    }
+
+    .about-section h2 {
+        font-size: 14px;
+        margin: 20px 0 0 0;
+    }
+
+    .about-section p{
+        font-size: 14px;
+        width: 320px;
+
+        margin: 20px 0 50px 0;
+    }
 }
 
 
@@ -530,5 +599,25 @@
 
     #feature-blog-btn {
         margin: 20px 0 70px 0;
+    }
+
+    /***************ABOUT PAGE*****************/
+
+    .about-section h1 {
+        font-size: 36px;
+        line-height: 56px;
+
+        margin: 40px 0 0 0;
+    }
+
+    .about-section h2 {
+        font-size: 12px;
+        margin: 10px 0 0 0;
+    }
+
+    .about-section p{
+        font-size: 12px;
+        width: 250px;
+        margin: 15px 0 50px 0;
     }
 }
