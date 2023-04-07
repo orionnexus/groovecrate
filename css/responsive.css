@@ -766,9 +766,14 @@
         margin: 0 0 30px 0;
     }
 
-    .feature-blog:hover .feature-blog-title {
+    .feature-blog:hover .feature-blog-title, .feature-blog-title {
         width: 200px;
         height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 1;
+        background-color: #3d5a80ca;
     }
 
     .feature-blog img {
