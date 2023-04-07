@@ -391,6 +391,20 @@
         margin: 0 0 12px 0;
     }
 
+    /**SUBFOOTER**/
+
+    .subfooter{
+        height: 40px;
+    }
+
+    .subfooter p{
+        line-height: 14px;
+    }
+
+    .subfooter br{
+        display: block;
+    }
+
     /***************ABOUT PAGE*****************/
 
     .about-section h1 {
@@ -620,4 +634,5 @@
         width: 250px;
         margin: 15px 0 50px 0;
     }
+
 }
