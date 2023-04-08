@@ -241,6 +241,7 @@ nav .cart:hover svg {
 }
 
 .item {
+    width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -260,7 +261,7 @@ nav .cart:hover svg {
 }
 
 .item-name {
-    width: 220px;
+    width: 230px;
     height: 22px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -270,7 +271,6 @@ nav .cart:hover svg {
     margin: 20px 0 0 0;
     overflow-x: hidden;
     white-space: nowrap;
-
 }
 
 .item:hover .item-name {
@@ -315,6 +315,7 @@ nav .cart:hover svg {
     font-weight: 400;
     color: var(--white);
     margin: 10px 0 20px 0;
+    text-align: center;
 }
 
 .feature-blog {
@@ -373,6 +374,7 @@ nav .cart:hover svg {
 
 .button:hover {
     background-color: var(--orange);
+    cursor: pointer;
 }
 
 .button p {
@@ -638,3 +640,47 @@ nav .cart:hover svg {
 }
 
 /*******************END OF CONTACT PAGE********************/
+
+/*******************SHOP PAGE********************/
+
+.shop-section {
+    width: 100%;
+    background-color: var(--dark-blue);
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#section-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--white);
+    margin: 10px 0 50px 0;
+}
+
+.shop-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 850px;
+    margin: 50px 0 30px 0;
+
+    transition: all .4s ease;
+}
+
+.shop-section .button{
+    margin: 0 0 30px 0;
+}
+
+
+#not-marquee {
+    animation: none;
+}
+
+/*******************END OF SHOP PAGE********************/
