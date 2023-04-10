@@ -226,6 +226,8 @@ nav .cart:hover svg {
     font-weight: 800;
     color: var(--white);
     margin: 70px 0 0 0;
+
+    transition: all .4s ease;
 }
 
 .feature-row {
@@ -660,6 +662,9 @@ nav .cart:hover svg {
     font-weight: 800;
     color: var(--white);
     margin: 10px 0 50px 0;
+    text-align: center;
+
+    transition: all .4s ease;
 }
 
 .shop-row {
