@@ -84,6 +84,21 @@
     .contact-row{
         width: 800px;
     }
+
+    /*******************ITEM PAGE********************/
+
+    .back-to-shop{
+        margin: 40px 0 40px 0;
+        width: 820px;
+    }
+
+    .item-row{
+        width: 820px;
+    }
+
+    .item-desc-list{ 
+        margin: 0 0 0 150px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -122,6 +137,21 @@
     .feature-blog img {
         width: 350px;
         height: auto;
+    }
+
+    /*******************ITEM PAGE********************/
+
+    .back-to-shop{
+        margin: 40px 0 40px 0;
+        width: 680px;
+    }
+
+    .item-row{
+        width: 700px;
+    }
+
+    .item-desc-list{ 
+        margin: 0 0 0 75px;
     }
 }
 
@@ -337,6 +367,21 @@
         font-size: 12px;
         margin: 20px 0 0 0;
     }
+
+    /*******************ITEM PAGE********************/
+
+    .back-to-shop{
+        margin: 40px 0 40px 0;
+        width: 640px;
+    }
+
+    .item-row{
+        width: 700px;
+    }
+
+    .item-desc-list{ 
+        margin: 0 0 0 75px;
+    }
 }
 
 @media (max-width: 720px) {
@@ -448,6 +493,39 @@
     .contact-section .contact-info{
         font-size: 12px;
         margin: 20px 0 0 0;
+    }
+
+    /*******************ITEM PAGE********************/
+
+    .back-to-shop{
+        margin: 40px 0 40px 0;
+        width: 520px;
+    }
+
+    .item-row{
+        width: 520px;
+        flex-direction: column;
+    }
+
+    .item-desc-list{ 
+        margin: 30px 0 0 30px;
+    }
+
+    .item-row .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    
+        margin: 0 auto 0 auto;
+    }
+
+    .item-row .item-name {
+        text-align: center;
+    }
+
+    .item-desc-list p{
+        margin: 0 0 15px 0;
     }
 
 }
@@ -576,6 +654,48 @@
     .contact-section .contact-info{
         font-size: 12px;
         margin: 15px 0 0 0;
+    }
+
+     /*******************ITEM PAGE********************/
+
+     .back-to-shop{
+        margin: 40px 0 40px 0;
+        width: 400px;
+    }
+
+    .back-to-shop a{
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .back-to-shop::before{
+        font-size: 20px;
+    }
+
+    .item-row{
+        width: 400px;
+        flex-direction: column;
+    }
+
+    .item-desc-list{ 
+        margin: 30px 0 0 30px;
+    }
+
+    .item-row .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    
+        margin: 0 auto 0 auto;
+    }
+
+    .item-row .item-name {
+        text-align: center;
+    }
+
+    .item-desc-list p{
+        margin: 0 0 15px 0;
     }
 
 }
@@ -750,6 +870,48 @@
         font-size: 12px;
         margin: 15px 0 0 0;
     }
+
+    /*******************ITEM PAGE********************/
+
+    .back-to-shop{
+        margin: 30px 0 30px 0;
+        width: 300px;
+    }
+
+    .back-to-shop a{
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .back-to-shop::before{
+        font-size: 18px;
+    }
+
+    .item-row{
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .item-desc-list{ 
+        margin: 20px 0 0 30px;
+    }
+
+    .item-row .item-name {
+        text-align: center;
+    }
+
+    .item-desc-list h2{
+        font-size: 14px;
+        margin: 15px 0 15px 0;
+    }
+
+    .item-desc-list p, .item-desc-list ul{
+        font-size: 12px;
+    }
+
+    .item-desc-list p{
+        margin: 0 0 15px 0;
+    }
 }
 
 
@@ -890,6 +1052,43 @@
     .contact-section .contact-info{
         font-size: 12px;
         margin: 10px 0 0 0;
+    }
+
+    /*******************ITEM PAGE********************/
+
+    .back-to-shop{
+        margin: 20px 0 20px 0;
+        width: 260px;
+    }
+
+    .back-to-shop::before{
+        font-size: 18px;
+    }
+
+    .item-row{
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .item-desc-list{ 
+        margin: 10px 0 0 30px;
+    }
+
+    .item-row .item-name {
+        text-align: center;
+    }
+
+    .item-desc-list h2{
+        font-size: 14px;
+        margin: 15px 0 7px 0;
+    }
+
+    .item-desc-list p, .item-desc-list ul{
+        font-size: 12px;
+    }
+
+    .item-desc-list p{
+        margin: 0 0 10px 0;
     }
 
 }

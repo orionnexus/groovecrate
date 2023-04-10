@@ -697,3 +697,132 @@ nav .cart:hover svg {
 }
 
 /*******************END OF SHOP PAGE********************/
+
+/*******************ITEM PAGE********************/
+
+.item-section {
+    width: 100%;
+    min-height: 80vh;
+    background-color: var(--dark-blue);
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.back-to-shop{
+    color: var(--white);
+    margin: 70px 0 40px 0;
+    width: 900px;
+
+    transition: all .4s ease;
+}
+
+.back-to-shop a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 800;
+    color: var(--white);
+    text-align: left;
+
+    transition: all .4s ease;
+}
+
+.back-to-shop::before{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 0px;
+    content: "\2039";
+}
+
+.back-to-shop a:hover{
+    text-decoration: underline;
+}
+
+.item-row{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    transition: all .4s ease;
+}
+
+.item-row .item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    margin: 0 0 0 40px;
+
+    transition: all .4s ease;
+}
+
+.item-row img {
+    transition: all .4s ease;
+}
+
+.item-row .item:hover {
+    background-color: transparent;
+}
+
+.item-row .item-name {
+    height: auto;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--white);
+    
+    overflow-x: visible;
+    white-space: normal;
+}
+
+.item:hover #page-item-name {
+    animation: none;
+}
+
+.item-section .button{
+    margin: 0;
+}
+
+.item-desc-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    margin: 0 0 0 200px;
+
+    transition: all .4s ease;
+}
+
+.item-desc-list h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--white);
+    margin: 15px 0 15px 0;
+}
+
+.item-desc-list p, .item-desc-list ul{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.item-desc-list p{
+    padding-left: 20px;
+    margin: 0 0 30px 0;
+}
+
+.item-desc-list ul{
+    margin: 0 0 30px 0;
+}
+
+
+/*******************END OF ITEM PAGE********************/
