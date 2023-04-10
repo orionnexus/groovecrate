@@ -92,9 +92,17 @@
         margin: 50px 0 0 0;
     }
 
+    .item{
+        width: 220px;
+    }
+
     .item img {
         width: 220px;
         height: 220px;
+    }
+
+    .item-name {
+        width: 220px;
     }
 
     .feature-blog {
@@ -229,6 +237,10 @@
         margin: 50px 0 0 0;
     }
 
+    .item{
+        width: 200px;
+    }
+
     .item img {
         width: 200px;
         height: 200px;
@@ -254,7 +266,8 @@
         height: 22px;
     }
 
-    .item:hover #not-marquee {
+    .item:hover #not-marquee-1, .item:hover #not-marquee-3,
+    .item:hover #not-marquee-4, .item:hover #not-marquee-5 {
         animation: marquee 3s linear infinite;
         animation-delay: .5s;
     }
@@ -340,6 +353,7 @@
 
     .item {
         margin: 0 0 40px 0;
+        width: 250px;
     }
 
     .feature-section .button {
@@ -368,11 +382,12 @@
     }
 
     .item-name {
-        width: 220px;
+        width: 230px;
         height: 22px;
     }
 
-    .item:hover #not-marquee {
+    .item:hover #not-marquee-1, .item:hover #not-marquee-3,
+    .item:hover #not-marquee-4, .item:hover #not-marquee-5 {
         animation: none;
     }
 
@@ -589,6 +604,7 @@
 
     .item {
         margin: 0 0 30px 0;
+        width: 220px;
     }
 
     .item img {
@@ -611,7 +627,10 @@
         height: 22px;
     }
 
-    .item:hover #not-marquee {
+    .item:hover #not-marquee-1, .item:hover #not-marquee-3,
+    .item:hover #not-marquee-4, .item:hover #not-marquee-5,
+    .item:hover #not-marquee-6, .item:hover #not-marquee-7,
+    .item:hover #not-marquee-8, .item:hover #not-marquee-9 {
         animation: none;
     }
 
@@ -743,6 +762,7 @@
 
     .item {
         margin: 0 0 20px 0;
+        width: 200px;
     }
 
     .item img {
@@ -757,6 +777,12 @@
 
     .item:hover #not-marquee {
         animation: none;
+    }
+
+    .item:hover #not-marquee-6, .item:hover #not-marquee-7,
+    .item:hover #not-marquee-8, .item:hover #not-marquee-9{
+        animation: marquee 3s linear infinite;
+        animation-delay: .5s;
     }
 
     .feature-blog {

@@ -679,7 +679,11 @@ nav .cart:hover svg {
 }
 
 
-#not-marquee {
+#not-marquee-1,
+#not-marquee-2,
+#not-marquee-3,
+#not-marquee-4,
+#not-marquee-5 {
     animation: none;
 }
 
