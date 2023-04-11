@@ -826,3 +826,125 @@ nav .cart:hover svg {
 
 
 /*******************END OF ITEM PAGE********************/
+
+/*******************BLOGS PAGE********************/
+
+.blogs-main-section {
+    width: 100%;
+    background-color: var(--dark-blue);
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blogs-main-section #section-description{
+    margin: 10px 0 60px 0;
+}
+
+.text-left{
+    text-align: left;
+    width: 900px;
+
+    transition: all .4s ease;
+}
+
+.mfb-texts{
+    padding: 40px;
+}
+
+.blogs-main-section h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+
+    margin: 0 0 0 0;
+}
+
+.main-featured-blogs h5{
+    color: var(--white);
+}
+
+.blogs-main-section p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+    transition: all .4s ease;
+    margin: 7px 0 0 0;
+}
+
+.main-featured-blogs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mfb-row{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin: 0 0 20px 0;
+    transition: all .4s ease;
+}
+
+.mfb-row:hover{
+    background-color: var(--blue);
+    transition: all .3s ease;
+}
+
+.mfb-row img{
+    width: 360px;
+    height: 160px;
+    object-fit: cover;
+    margin: 20px 0 20px 20px;
+    transition: all .4s ease;
+}
+
+.mfb-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.main-blogs-list{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    transition: all .4s ease;
+}
+
+.main-blogs-list h5{
+    color: #98C1D9;
+    text-decoration: none;
+}
+
+.main-blogs-list h5:hover{
+    color: var(--orange);
+    text-decoration: underline;
+
+    transition: all .2s ease;
+}
+
+.mbl-article{
+    margin: 40px 0 0 0;
+}
+
+.line-separator{
+    width: 900px;
+    height: 2px;
+    background-color: var(--white);
+    transition: all .4s ease;
+}
+
+/*******************END OF BLOGS PAGE********************/
