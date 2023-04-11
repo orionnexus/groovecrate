@@ -120,6 +120,10 @@
 }
 
 @media (max-width: 900px) {
+    .feature-section #section-title {
+        margin: 70px 0 40px 0;
+    }
+    
     #section-description{
         margin: 10px 0 75px 0;
     }
@@ -639,6 +643,10 @@
     #section-title {
         font-size: 24px;
         margin: 50px 0 0 0;
+    }
+
+    .feature-section #section-title {
+        margin: 50px 0 40px 0;
     }
 
     #section-description{
