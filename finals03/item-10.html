@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Best of Andy Williams Barnes & Noble Exclusive | Groove Crate Shop</title>
+    <link rel="icon" type="image/x-icon" href="images/icons/logo-icon-color2.svg">
+
+    <!-- custom styles-->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- fonts style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+
+    <!-- mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- sweetalert library-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+    <nav>
+        <label class="logo"><a href="index.html">
+                <img src="images/icons/logo-icon-color1.svg"></a>
+        </label>
+        <ul id="menu">
+            <li class="nav-one"><a href="index.html">HOME</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="blogs.html">BLOGS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <a class="cart" href="cart.html">
+            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_92_400)">
+                    <path
+                        d="M15 50.0005C13.625 50.0005 12.4475 49.5105 11.4675 48.5305C10.4875 47.5505 9.99833 46.3738 10 45.0005C10 43.6255 10.49 42.448 11.47 41.468C12.45 40.488 13.6267 39.9988 15 40.0005C16.375 40.0005 17.5525 40.4905 18.5325 41.4705C19.5125 42.4505 20.0017 43.6272 20 45.0005C20 46.3755 19.51 47.553 18.53 48.533C17.55 49.513 16.3733 50.0022 15 50.0005ZM40 50.0005C38.625 50.0005 37.4475 49.5105 36.4675 48.5305C35.4875 47.5505 34.9983 46.3738 35 45.0005C35 43.6255 35.49 42.448 36.47 41.468C37.45 40.488 38.6267 39.9988 40 40.0005C41.375 40.0005 42.5525 40.4905 43.5325 41.4705C44.5125 42.4505 45.0017 43.6272 45 45.0005C45 46.3755 44.51 47.553 43.53 48.533C42.55 49.513 41.3733 50.0022 40 50.0005ZM12.875 10.0005L18.875 22.5005H36.375L43.25 10.0005H12.875ZM15 37.5005C13.125 37.5005 11.7083 36.6772 10.75 35.0305C9.79166 33.3838 9.75 31.7488 10.625 30.1255L14 24.0005L5 5.0005H2.4375C1.72917 5.0005 1.14583 4.7605 0.6875 4.2805C0.229167 3.8005 0 3.20716 0 2.5005C0 1.79216 0.24 1.198 0.72 0.717997C1.2 0.237997 1.79333 -0.00116973 2.5 0.000496932H6.5625C7.02083 0.000496932 7.45833 0.125497 7.875 0.375497C8.29166 0.625497 8.60416 0.979663 8.8125 1.438L10.5 5.0005H47.375C48.5 5.0005 49.2708 5.41716 49.6875 6.2505C50.1042 7.08383 50.0833 7.95883 49.625 8.8755L40.75 24.8755C40.2917 25.7088 39.6875 26.3547 38.9375 26.813C38.1875 27.2713 37.3333 27.5005 36.375 27.5005H17.75L15 32.5005H42.5625C43.2708 32.5005 43.8542 32.7405 44.3125 33.2205C44.7708 33.7005 45 34.2938 45 35.0005C45 35.7088 44.76 36.303 44.28 36.783C43.8 37.263 43.2067 37.5022 42.5 37.5005H15Z" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_92_400">
+                        <rect width="50" height="50" transform="translate(0 0.000488281)" />
+                    </clipPath>
+                </defs>
+            </svg>
+        </a>
+
+        <p id="showHide" hidden="true">false</p>
+        <label for="check" class="checkbtn" onclick="showMenu()">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 8H50V13.5556H0V8ZM0 21.8889H50V27.4444H0V21.8889ZM0 35.7778H50V41.3333H0V35.7778Z" />
+            </svg>
+        </label>
+    </nav>
+
+    <div class="main-page">
+        <div class="item-section">
+            <div class="back-to-shop"><a href="shop.html"> Go Back to Shop</a></div>
+            <div class="item-row">
+                <div class="item">
+                    <img src="images/img-item-10.png"></a>
+                    <p class="item-name" id="page-item-name">Best of Andy Williams Barnes & Noble Exclusive</p>
+                    <p class="item-price">PHP 1500.00</p>
+                    <div onclick="showAlert()" class="button">
+                        <p>ADD TO CART</p>
+                    </div>
+                </div>
+                <div class="item-desc-list">
+                    <h2>Product Description</h2>
+                    <p>US Press, Mint condition</p>
+                    <h2>Tracklist</h2>
+                    <ul>
+                        <li>The Hawaiian Wedding Song</li>
+                        <li>Are You Sincere</li>
+                        <li>Lonely Street</li>
+                        <li>The Village Of St. Bernadette</li>
+                        <li>Canadian Sunset</li>
+                        <li>Butterfly</li>
+                        <li>The Bilbao Song</li>
+                        <li>(In The Summertime) You Don't Want My Love</li>
+                        <li>I Like Your Kind Of Love</li>
+                        <li>How Wonderful To Know</li>
+                        <li>Don't Go To Strangers</li>
+                        <li>Unchained Melody</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-margin-bot"></div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-column">
+                <h1>Groove <span>Crate</span></h1>
+                <h2>your ultimate destination for all things vinyl!</h2>
+                <div class="footer-contact">
+                    <a class="footer-contact-icon" href="mailto:groovecrate@gmail.com" target="_blank"><img
+                            src="images/icons/contact-email-dark.svg"></a>
+                    <a class="footer-contact-icon" href="tel:+639173227817" target="_blank"><img
+                            src="images/icons/contact-call-dark.svg"></a>
+                    <a class="footer-contact-icon" href="https://www.facebook.com/andreicarmelo" target="_blank"><img
+                            src="images/icons/contact-facebook-dark.svg"></a>
+                </div>
+                <a class="footer-nav" href="index.html">HOME</a>
+                <a class="footer-nav" href="shop.html">SHOP</a>
+                <a class="footer-nav" href="blogs.html">BLOGS</a>
+                <a class="footer-nav" href="about.html">ABOUT</a>
+
+            </div>
+        </div>
+        <div class="subfooter">
+            <p>&copy; COPYRIGHT 2023 GROOVE CRATE. <br>DEVELOPED BY CARMELO BUENAVENTURA</p>
+        </div>
+
+    </div>
+
+</body>
+
+
+<!--Navbar Show Hide Script-->
+
+<script>
+
+    function showMenu() {
+        var show = document.getElementById("showHide").innerHTML;
+        toggleScroll();
+
+        if (show == "false") {
+            document.getElementById('menu').id = "menu-show";
+            document.getElementById('showHide').innerHTML = "true";
+        }
+
+        if (show == "true") {
+            document.getElementById('menu-show').id = "menu";
+            document.getElementById('showHide').innerHTML = "false";
+        }
+
+    }
+
+    function toggleScroll() {
+        var body = document.getElementsByTagName('body')[0];
+        body.style.overflowY = (body.style.overflowY == 'hidden') ? 'auto' : 'hidden';
+    }
+
+</script>
+
+<!-- Add to Cart Alert Box Script -->
+
+<script>
+    function showAlert() {
+        Swal.fire({
+            position: 'top',
+            icon: 'success',
+            showConfirmButton: false,
+            iconColor: '#e71818',
+            width: '18em',
+            title: 'Successfully added to cart',
+            timer: 1500,
+            iconColor: '#EE6C4D',
+            customClass: {
+                title: 'customTitle',
+                popup: 'customClass',
+                icon: 'customIcon',
+            }
+        })
+    }
+</script>
+
+<style>
+    :root {
+        /*COLOR PALETTE*/
+        --white: #F6F6F6;
+        --light-cyan: #E0FBFC;
+        --blue: #3D5A80;
+        --dark-blue: #293241;
+        --dark-gray: #0A0E14;
+        --orange: #EE6C4D;
+    }
+
+    .customClass {
+        font-family: 'Montserrat', sans-serif;
+        background-color: var(--white);
+        font-size: 12px;
+        font-weight: 400;
+        height: 6rem;
+        color: var()
+    }
+
+    .customTitle {
+        font-family: 'Montserrat', sans-serif;
+        background-color: var(--white);
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--blue);
+    }
+
+    .customIcon {
+        width: 30px;
+        height: 30px;
+        font-size: 6px
+    }
+</style>
+
+</html>
