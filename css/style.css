@@ -1000,4 +1000,8 @@ nav .cart:hover svg {
     background-color: var(--white);
 }
 
+#disqus_thread{
+    padding: 40px;
+}
+
 /*******************END OF BLOG ARTICLE PAGE********************/
