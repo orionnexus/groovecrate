@@ -1005,3 +1005,132 @@ nav .cart:hover svg {
 }
 
 /*******************END OF BLOG ARTICLE PAGE********************/
+
+/*******************CART PAGE********************/
+
+.cart-section{
+    width: 100%;
+    min-height: 80vh;
+    background-color: var(--white);
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cart-container{
+    width: 438px;
+    /*height: 422px;*/
+    background-color: var(--dark-blue);
+    margin: 70px auto 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    transition: all .4s ease;
+}
+
+.cart-row{
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    transition: all .4s ease;
+}
+
+.cart-section h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--light-cyan);
+
+    margin: 20px 0 0 0;
+}
+
+.edit{
+    width: 20px;
+    margin: 22px 0 0 0;
+
+    transition: all .4s ease;
+}
+
+.edit:hover{
+    cursor: pointer;
+}
+
+.cart-line{
+    width: 400px;
+    height: 2px;
+    background-color: var(--white);
+    margin: 15px auto;
+
+    transition: all .4s ease;
+}
+
+.cart-item-img{
+    width: 40px;
+    margin: 0 20px 0 0;
+
+    transition: all .4s ease;
+}
+
+.cart-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--white);
+
+    margin: 0 auto 0 0;
+
+    transition: all .4s ease;
+}
+
+.cart-item span{
+    font-weight: 400;
+}
+
+.cart-item-price{
+    /*height: 40px;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    color: var(--white);
+
+    margin: 26px 0 0 0;
+
+    transition: all .4s ease;
+}
+
+.cart-sub{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--white);
+
+    margin: 10px 0;
+
+    transition: all .4s ease;
+}
+
+.cart-total{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--white);
+
+    margin: 10px 0;
+
+    transition: all .4s ease;
+}
+
+#cart-button{
+    margin: 20px 0 30px 0;
+}
+/*******************END OF CART PAGE********************/

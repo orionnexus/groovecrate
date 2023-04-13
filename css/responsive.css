@@ -133,6 +133,13 @@
     .forum-container{
         width: 800px;
     }
+
+    /*******************CART PAGE********************/
+
+    .cart-container{
+        margin: 50px auto 0 auto;
+    }
+
 }
 
 @media (max-width: 900px) {
@@ -931,6 +938,64 @@
         font-size: 14px;
         margin: 12px 0;
     }
+
+    /*******************CART PAGE********************/
+
+    .cart-container{
+        width: 360px;
+        margin: 40px auto 0 auto;
+    }
+
+    .cart-row{
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    
+        transition: all .4s ease;
+    }
+
+    .cart-section h5{
+        font-size: 16px;
+    
+        margin: 20px 0 0 0;
+    }
+
+    .edit{
+        width: 18px;
+        margin: 22px 0 0 0;
+    
+        transition: all .4s ease;
+    }
+
+    .cart-line{
+        width: 300px;
+        margin: 15px auto;
+    }
+
+    .cart-item-img{
+        width: 30px;
+        margin: 0 10px 0 0;
+    
+        transition: all .4s ease;
+    }
+
+    .cart-item{
+        font-size: 12px;
+    }
+
+    .cart-item-price{
+        font-size: 11px;
+        line-height: 11px;
+        margin: 19px 0 0 0;
+    }
+
+    .cart-sub, .cart-total{
+        font-size: 11px;
+        margin: 7.5px 0;
+    }
+
 }
 
 
@@ -1226,6 +1291,66 @@
     .article-section p{
         font-size: 12px;
         margin: 10px 0;
+    }
+
+    /*******************CART PAGE********************/
+
+    .cart-container{
+        width: 300px;
+        margin: 40px auto 0 auto;
+    }
+
+    .cart-row{
+        width: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    
+        transition: all .4s ease;
+    }
+
+    .cart-section h5{
+        font-size: 14px;
+    
+        margin: 20px 0 0 0;
+    }
+
+    .edit{
+        width: 16px;
+        margin: 22px 0 0 0;
+    
+        transition: all .4s ease;
+    }
+
+    .cart-line{
+        width: 250px;
+        margin: 10px auto 15px auto;
+    }
+
+    .cart-item-img{
+        width: 30px;
+        margin: 0 10px 5px 0;
+    
+        transition: all .4s ease;
+    }
+
+    .cart-item{
+        font-size: 12px;
+        width: 145px;
+        overflow-x: hidden;
+        white-space: nowrap;
+    }
+
+    .cart-item-price{
+        font-size: 11px;
+        line-height: 11px;
+        margin: 19px 0 0 0;
+    }
+
+    .cart-sub, .cart-total{
+        font-size: 11px;
+        margin: 0 0 15px 0;
     }
 }
 
