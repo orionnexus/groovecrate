@@ -969,10 +969,14 @@ nav .cart:hover svg {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+
+    transition: all .4s ease;
 }
 
 .vlog{
     margin: 0 auto 40px auto;
+
+    transition: all .4s ease;
 }
 
 .article-section h5{
@@ -982,6 +986,8 @@ nav .cart:hover svg {
     color: var(--white);
 
     margin: 30px 0;
+
+    transition: all .4s ease;
 }
 
 .article-section p{
@@ -998,10 +1004,21 @@ nav .cart:hover svg {
     height: 442px;
     overflow-y: scroll;
     background-color: var(--white);
+
+    transition: all .4s ease;
 }
 
 #disqus_thread{
     padding: 40px;
+
+    transition: all .4s ease;
+}
+
+.article-section .button h7{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--dark-blue);
 }
 
 /*******************END OF BLOG ARTICLE PAGE********************/

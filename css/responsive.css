@@ -673,7 +673,7 @@
 
     .vlog{
         width: 400px;
-        height: 276px;
+        height: 221px;
         margin: 0 auto 30px auto;
     }
 
@@ -1103,7 +1103,7 @@
         height: 30px;
     }
 
-    .button p {
+    .button p, .article-section .button h7 {
         font-size: 14px;
     }
 
